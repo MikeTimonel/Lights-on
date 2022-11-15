@@ -1,7 +1,6 @@
 name: Build project
 
-on:
-  push: { branches: [main] }
+on: [push, pull_request]
 
 jobs:
   buildForAllSupportedPlatforms:
@@ -23,11 +22,11 @@ jobs:
           key: Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
       - uses: game-ci/unity-builder@v2.1.2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          projectPath: ${{ matrix.projectPath }}
-          unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v3.1.1
         with:
-          name: Build
-          path: build
+          name: Build-${{ matrix.targetPlatform }}
+          path: build/${{ matrix.targetPlatform }}
