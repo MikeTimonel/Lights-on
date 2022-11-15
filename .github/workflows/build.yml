@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         projectPath:
-          - ./
+          - Lights-on
         unityVersion:
           - 2020.1.13f1
         targetPlatform:
