@@ -19,7 +19,7 @@ public class Death : MonoBehaviour
             Destroy(jump);
         }
     }
-    IEnumerator reload()
+    public IEnumerator reload()
     {
         yield return new WaitForSeconds(1.2f);
         SceneManager.LoadScene("Level1");

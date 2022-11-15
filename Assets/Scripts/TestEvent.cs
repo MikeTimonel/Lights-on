@@ -16,14 +16,13 @@ public class TestEvent : MonoBehaviour
         eventManager.OnAction += Open;
     }
 
-    private void Open()
+    public void Open()
     {
         if (leveranimator.GetBool("On"))
         {
             barriers();
             animations.actionOn();
             leveranimator.SetBool("On", false);
-            
         }
         else if (!leveranimator.GetBool("On"))
         {
