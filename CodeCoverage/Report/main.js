@@ -242,7 +242,7 @@ var assemblies = [
     "classes": [
       { "name": "Actiontests", "rp": "Tests_Actiontests.html", "cl": 29, "ucl": 0, "cal": 29, "tl": 54, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Animationnoruntests", "rp": "Tests_Animationnoruntests.html", "cl": 18, "ucl": 0, "cal": 18, "tl": 44, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Animationsdeathtest", "rp": "Tests_Animationsdeathtest.html", "cl": 16, "ucl": 0, "cal": 16, "tl": 34, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Animationsdeathtest", "rp": "Tests_Animationsdeathtest.html", "cl": 14, "ucl": 0, "cal": 14, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Animationstest", "rp": "Tests_Animationstest.html", "cl": 21, "ucl": 3, "cal": 24, "tl": 38, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Deathtest", "rp": "Tests_Deathtest.html", "cl": 16, "ucl": 0, "cal": 16, "tl": 0, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
     ]},

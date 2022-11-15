@@ -1,16 +1,16 @@
 ﻿# Summary
 |||
 |:---|:---|
-| Generated on: | 14/11/2022 - 1:42:36 p. m. |
+| Generated on: | 14/11/2022 - 7:15:52 p. m. |
 | Parser: | MultiReportParser (9x OpenCoverParser) |
 | Assemblies: | 2 |
 | Classes: | 17 |
 | Files: | 17 |
-| Covered lines: | 310 |
+| Covered lines: | 308 |
 | Uncovered lines: | 34 |
-| Coverable lines: | 344 |
-| Total lines: | 554 |
-| Line coverage: | 90.1% (310 of 344) |
+| Coverable lines: | 342 |
+| Total lines: | 553 |
+| Line coverage: | 90% (308 of 342) |
 | Covered branches: | 0 |
 | Total branches: | 0 |
 | Covered methods: | 61 |
@@ -32,9 +32,9 @@
 |TestEvent|33|0|33|53|100%|0|0||5|5|100%|
 |Timer|10|0|10|25|100%|0|0||1|1|100%|
 |WhalyManagement|6|0|6|24|100%|0|0||4|4|100%|
-|**Tests**|**100**|**3**|**103**|**170**|**97%**|**0**|**0**|****|**21**|**21**|**100%**|
+|**Tests**|**98**|**3**|**101**|**169**|**97%**|**0**|**0**|****|**21**|**21**|**100%**|
 |Actiontests|29|0|29|54|100%|0|0||5|5|100%|
 |Animationnoruntests|18|0|18|44|100%|0|0||3|3|100%|
-|Animationsdeathtest|16|0|16|34|100%|0|0||4|4|100%|
+|Animationsdeathtest|14|0|14|33|100%|0|0||4|4|100%|
 |Animationstest|21|3|24|38|87.5%|0|0||6|6|100%|
 |Deathtest|16|0|16|0|100%|0|0||3|3|100%|

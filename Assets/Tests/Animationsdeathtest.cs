@@ -9,7 +9,6 @@ public class Animationsdeathtest
 {
     private Animator animator;
     private Animations animations;
-    private GameObject player;
     private Death death;
     private bool state;
 
