@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +6,7 @@ public class Jump : MonoBehaviour
 {
     BlakkrManager blakkrManager = new BlakkrManager();
     WhalyManagement whalyManager = new WhalyManagement();
-    bool isJumping = false;
+    public bool isJumping = false;
     private Rigidbody2D rgb2;
     private float powerjump = 7.7f;
     void Start()

@@ -1,44 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>15/11/2022 - 1:09:02 a. m.</Generatedon>
+    <Generatedon>15/11/2022 - 4:48:47 a. m.</Generatedon>
     <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
     <Assemblies>2</Assemblies>
-    <Classes>18</Classes>
-    <Files>18</Files>
-    <Coveredlines>276</Coveredlines>
-    <Uncoveredlines>62</Uncoveredlines>
-    <Coverablelines>338</Coverablelines>
-    <Totallines>668</Totallines>
-    <Linecoverage>81.6</Linecoverage>
+    <Classes>21</Classes>
+    <Files>21</Files>
+    <Coveredlines>357</Coveredlines>
+    <Uncoveredlines>24</Uncoveredlines>
+    <Coverablelines>381</Coverablelines>
+    <Totallines>768</Totallines>
+    <Linecoverage>93.7</Linecoverage>
     <Coveredbranches>0</Coveredbranches>
     <Totalbranches>0</Totalbranches>
-    <Coveredmethods>53</Coveredmethods>
-    <Totalmethods>56</Totalmethods>
-    <Methodcoverage>94.6</Methodcoverage>
+    <Coveredmethods>64</Coveredmethods>
+    <Totalmethods>64</Totalmethods>
+    <Methodcoverage>100</Methodcoverage>
   </Summary>
   <Coverage>
-    <Assembly name="Scripts" classes="11" coverage="71.1" coveredlines="153" coverablelines="215" totallines="383" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="31" totalmethods="34" methodcoverage="91.1">
+    <Assembly name="Scripts" classes="11" coverage="88.8" coveredlines="192" coverablelines="216" totallines="384" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="34" totalmethods="34" methodcoverage="100">
       <Class name="Animations" coverage="100" coveredlines="30" coverablelines="30" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
       <Class name="BlakkrManager" coverage="100" coveredlines="6" coverablelines="6" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
       <Class name="Death" coverage="100" coveredlines="13" coverablelines="13" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
-      <Class name="EventManager" coverage="0" coveredlines="0" coverablelines="7" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="EventManager" coverage="100" coveredlines="7" coverablelines="7" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
       <Class name="FinalLevel" coverage="70" coveredlines="14" coverablelines="20" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
       <Class name="FinalPlayer" coverage="100" coveredlines="15" coverablelines="15" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
       <Class name="Jump" coverage="75" coveredlines="24" coverablelines="32" totallines="44" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
-      <Class name="Movement" coverage="65.1" coveredlines="28" coverablelines="43" totallines="59" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
-      <Class name="TestEvent" coverage="21.2" coveredlines="7" coverablelines="33" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="5" methodcoverage="60" />
+      <Class name="Movement" coverage="77.2" coveredlines="34" coverablelines="44" totallines="60" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="TestEvent" coverage="100" coveredlines="33" coverablelines="33" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
       <Class name="Timer" coverage="100" coveredlines="10" coverablelines="10" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
       <Class name="WhalyManagement" coverage="100" coveredlines="6" coverablelines="6" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
     </Assembly>
-    <Assembly name="Tests" classes="7" coverage="100" coveredlines="123" coverablelines="123" totallines="285" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="22" totalmethods="22" methodcoverage="100">
+    <Assembly name="Tests" classes="10" coverage="100" coveredlines="165" coverablelines="165" totallines="384" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="30" totalmethods="30" methodcoverage="100">
       <Class name="Actiontests" coverage="100" coveredlines="29" coverablelines="29" totallines="54" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
       <Class name="Animationnoruntests" coverage="100" coveredlines="18" coverablelines="18" totallines="44" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
       <Class name="Animationsdeathtest" coverage="100" coveredlines="12" coverablelines="12" totallines="33" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
       <Class name="Animationstest" coverage="100" coveredlines="17" coverablelines="17" totallines="38" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
       <Class name="DeathTests" coverage="100" coveredlines="15" coverablelines="15" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="Eventtests" coverage="100" coveredlines="13" coverablelines="13" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
       <Class name="FinalPlayer2test" coverage="100" coveredlines="16" coverablelines="16" totallines="38" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
       <Class name="Finalplayertests" coverage="100" coveredlines="16" coverablelines="16" totallines="38" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="Jumptests" coverage="100" coveredlines="12" coverablelines="12" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="Movementtests" coverage="100" coveredlines="17" coverablelines="17" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
     </Assembly>
   </Coverage>
 </CoverageReport>

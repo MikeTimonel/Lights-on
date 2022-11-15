@@ -202,7 +202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df66747488dd1e94fa52c3dcb8463b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mySpriteRenderer: {fileID: 0}
   testing: 0
+  testing2: 0
   isrunning: 0
 --- !u!114 &5653480808389694024
 MonoBehaviour:
@@ -246,3 +248,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a7e69873839e3479e087d84c62a9b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isJumping: 0
