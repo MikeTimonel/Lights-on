@@ -6,8 +6,9 @@ public class Movement : MonoBehaviour
 {
     BlakkrManager blakkrManager = new BlakkrManager();
     WhalyManagement whalyManager = new WhalyManagement();
-    private SpriteRenderer mySpriteRenderer;
+    public SpriteRenderer mySpriteRenderer;
     public bool testing = false;
+    public bool testing2 = false;
     public bool isrunning;
     bool flip;
     private const float speed = 3.8f;
@@ -26,7 +27,7 @@ public class Movement : MonoBehaviour
                 mySpriteRenderer.flipX = true;
                 isrunning = true;
             }
-            else if ((Input.GetKey(blakkrManager.GetRightKey)) || testing)
+            else if ((Input.GetKey(blakkrManager.GetRightKey)) || testing2)
             {
                 position.x += speed * Time.deltaTime;
                 mySpriteRenderer.flipX = false;
